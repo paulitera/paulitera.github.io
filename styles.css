@@ -34,7 +34,21 @@ nav {
 .nav-links {
     gap: 2rem;
     list-style: none;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
+    align-items: center;
+}
+
+#contact {
+    background-color: #d8a48f;
+    padding: 0.3rem 1rem;
+    border-radius: 10px;
+}
+
+#contact:hover {
+    color: white;
+    border: solid 2px #a26769;
+    text-decoration: none;
+    transition: none;
 }
 
 a {
