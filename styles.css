@@ -13,6 +13,7 @@
 
 body {
     font-family: 'Ubuntu', sans-serif;
+    background-color: var(--light);
 }
 
 html {
@@ -116,7 +117,7 @@ a:hover {
     position: absolute;
     top: 100%;
     right: 0;
-    background-color: white;
+    background-color: var(--light);
     width: fit-content;
     max-height: 0;
     overflow: hidden;
@@ -148,8 +149,8 @@ a:hover {
 }
 
 .hamburger-icon.open {
-    background-color: white;
-    border: none;
+    background-color: var(--light);
+    border: solid 2px var(--light);
 }
 
 .hamburger-icon.open span {
