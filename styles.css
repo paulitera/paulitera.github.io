@@ -49,7 +49,8 @@ nav {
     background-color: var(--muted-pink);
     padding: 0.5rem 1.2rem;
     border-radius: 10px;
-    border: none;
+    border: solid 2px var(--light);
+    cursor: pointer;
 }
 
 .btn:hover {
