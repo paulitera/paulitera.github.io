@@ -4,15 +4,32 @@
     window.addEventListener("load", init);
 
     function init() {
-        //add onclicks to hamburger menu
+        //onclicks to hamburger menu opening and closing
         let icon = document.querySelector(".hamburger-icon");
         icon.addEventListener("click", toggleMenu);
-        console.log(icon)
         let menuLinks = document.querySelectorAll(".menu-links a");
         for (let i = 0; i < menuLinks.length; i++) {
             console.log(menuLinks[i]);
             menuLinks[i].addEventListener("click", toggleMenu);
         }
+
+        //onclick for resume opening
+        let cv = document.getElementById("resume");
+        cv.addEventListener("click", () => {
+            window.open("/assets/PaulinaTeránCV.pdf");
+        });
+
+        //onclick for github opening
+        let github = document.getElementById("github-btn");
+        github.addEventListener("click", () => {
+            window.open("https://github.com/paulitera");
+        })
+
+        //onclick for linkedin opening
+        let linkedin = document.getElementById("linkedin-btn");
+        linkedin.addEventListener("click", () => {
+            window.open("https://linkedin.com/in/paultera");
+        })
     }
 
     function toggleMenu() {
