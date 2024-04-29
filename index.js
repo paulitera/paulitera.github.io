@@ -13,19 +13,19 @@
             menuLinks[i].addEventListener("click", toggleMenu);
         }
 
-        //onclick for resume opening
+        //onclick for resume
         let cv = document.getElementById("resume");
         cv.addEventListener("click", () => {
             window.open("/assets/PaulinaTeránCV.pdf");
         });
 
-        //onclick for github opening
+        //onclick for github
         let github = document.getElementById("github-btn");
         github.addEventListener("click", () => {
             window.open("https://github.com/paulitera");
         })
 
-        //onclick for linkedin opening
+        //onclick for linkedin
         let linkedin = document.getElementById("linkedin-btn");
         linkedin.addEventListener("click", () => {
             window.open("https://linkedin.com/in/paultera");

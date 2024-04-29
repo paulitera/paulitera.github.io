@@ -194,10 +194,6 @@ section {
     min-height: fit-content;
 }
 
-/* .section-container {
-    display: flex;
-} */
-
 #profile {
     display: flex;
     justify-content: center;
@@ -212,12 +208,15 @@ section {
 
 .section-text p {
     font-weight: 500;
+    font-size: 1.25rem;
+    color: rgb(80, 79, 79);
 }
 
 .section-text-p1 {
     text-align: center;
     font-size: 1.75rem;
     margin-bottom: 1rem;
+    color: rgb(80, 79, 79);
 }
 
 .title {
@@ -246,4 +245,33 @@ section {
     font-weight: 400;
     font-size: 1rem;
     margin-bottom: 1rem;
+}
+
+/* About Section */
+
+.about-section-container {
+    margin-top: 2rem;
+}
+
+.school-container {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+}
+
+.school-sub-text {
+    font-size: 0.9rem;
+}
+
+.school-main-text {
+    font-size: 1.25rem;
+}
+
+.text-container {
+    margin-top: 0.5rem;
+}
+
+.text-container p {
+    color: rgb(80, 79, 79);
 }
