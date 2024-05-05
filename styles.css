@@ -250,7 +250,10 @@ section {
 /* About Section */
 
 .about-section-container {
-    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    margin-top: 4rem;
+    gap: 2.5rem;
 }
 
 .school-container {
@@ -275,3 +278,35 @@ section {
 .text-container p {
     color: rgb(80, 79, 79);
 }
+
+.skills-container {
+    padding: 1.5rem;
+    border-radius: 2rem;
+    border: 0.1rem solid rgb(53, 53, 53);
+    text-align: center;
+    /* flex: 1; */
+}
+
+.skills-container h2 {
+    color: rgb(80, 79, 79);
+    margin-bottom: 0.5rem;
+}
+
+.article-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* gap: 5rem; */
+    /* flex-grow: 1;
+} */
+
+.skill-text-container {
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    width: 166px;
+}
+
+/* ICONS BY Icons8 */
