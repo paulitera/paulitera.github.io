@@ -252,8 +252,10 @@ section {
 .about-section-container {
     display: flex;
     flex-direction: column;
-    margin-top: 4rem;
+    /* margin-top: 4rem; */
     gap: 2.5rem;
+    height: 70vh;
+    justify-content: center;
 }
 
 .school-container {
@@ -272,11 +274,12 @@ section {
 }
 
 .text-container {
-    margin-top: 0.5rem;
+    margin-top: 1rem;
 }
 
 .text-container p {
     color: rgb(80, 79, 79);
+    font-size: 1.1rem;
 }
 
 .skills-container {
@@ -298,8 +301,8 @@ section {
     flex-wrap: wrap;
     justify-content: center;
     /* gap: 5rem; */
-    /* flex-grow: 1;
-} */
+    /* flex-grow: 1; */
+}
 
 .skill-text-container {
     padding: 0.5rem;
@@ -307,6 +310,26 @@ section {
     align-items: center;
     gap: 0.5rem;
     width: 166px;
+}
+
+/* PROJECT SECTION */
+
+.projects-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.project-article-container {
+    display: flex;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.project-img {
+    border-radius: 2rem;
+    width: 90%;
+    height: 90%;
 }
 
 /* ICONS BY Icons8 */
