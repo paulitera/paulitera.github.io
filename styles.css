@@ -320,16 +320,28 @@ section {
     flex-direction: column;
 
 }
+
 .project-article-container {
     display: flex;
     gap: 2rem;
     margin-top: 2rem;
+    padding: 1rem;
 }
 
 .project-img {
     border-radius: 2rem;
     width: 90%;
     height: 90%;
+}
+
+.project-details-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.project-stack-container {
+    display: flex;
+    gap: 1rem;
 }
 
 /* ICONS BY Icons8 */
