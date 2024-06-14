@@ -344,4 +344,23 @@ section {
     gap: 1rem;
 }
 
+.project-stack-container p {
+    font-weight: 500;
+    margin: 0.5rem 0;
+    color: rgb(80, 79, 79);
+}
+
+.project-title {
+    font-size: 1.4rem;
+    margin: 1rem 0;
+}
+
+.project-btn {
+    font-size: 1rem;
+}
+
+.button-container {
+    display: flex;
+}
+
 /* ICONS BY Icons8 */
