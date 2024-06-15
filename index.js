@@ -4,7 +4,7 @@
     window.addEventListener("load", init);
 
     function init() {
-        //onclicks to hamburger menu opening and closing
+        //listener for hamburger menu opening and closing
         let icon = document.querySelector(".hamburger-icon");
         icon.addEventListener("click", toggleMenu);
         let menuLinks = document.querySelectorAll(".menu-links a");
@@ -13,22 +13,39 @@
             menuLinks[i].addEventListener("click", toggleMenu);
         }
 
-        //onclick for resume
+        //listener for resume
         let cv = document.getElementById("resume");
         cv.addEventListener("click", () => {
             window.open("/assets/PaulinaTeránCV.pdf");
         });
 
-        //onclick for github
+        //listener for github
         let github = document.getElementById("github-btn");
         github.addEventListener("click", () => {
             window.open("https://github.com/paulitera");
         })
 
-        //onclick for linkedin
+        //listener for linkedin
         let linkedin = document.getElementById("linkedin-btn");
         linkedin.addEventListener("click", () => {
             window.open("https://linkedin.com/in/paultera");
+        })
+
+        //listener for project links
+        document.getElementById("fungifind-git").addEventListener("click", () => {
+            window.open("https://github.com/hcp-uw/shroomies");
+        })
+        document.getElementById("fungifind-demo").addEventListener("click", () => {
+            window.open("https://docs.google.com/presentation/d/1gM8NnBSF3XxxImybPwQ9qBZoeITvUxLZHzdzUpY_gdM/edit#slide=id.g2ddb8ec4c7d_0_5");
+        })
+        document.getElementById("uofw-demo").addEventListener("click", () => {
+            window.open("https://drive.google.com/file/d/1F35tO966i4erb4eAeiuHxCcW9C4LHr-q/view?usp=sharing");
+        })
+        document.getElementById("ttot-git").addEventListener("click", () => {
+            window.open("https://github.com/VladimirKupryukhin/AppMessageReceiver");
+        })
+        document.getElementById("ttot-post").addEventListener("click", () => {
+            window.open("https://devpost.com/software/touch-to-text");
         })
     }
 
