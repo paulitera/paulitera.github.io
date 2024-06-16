@@ -73,7 +73,7 @@ a:hover {
 }
 
 .logo {
-    font-size: 2rem;
+    font-size: 1.75rem;
 }
 
 .logo:hover {
@@ -363,6 +363,52 @@ section {
 
 .button-container {
     display: flex;
+}
+
+/* CONTACT SECTION */
+
+#contact {
+    height: fit-content;
+    background-color: var(--rose);
+    margin: 0;
+    padding: 0 10rem;
+    padding-top: 4vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-text {
+    text-align: center;
+    font-size: 1.75rem;
+}
+
+.contact-line-break {
+    margin: 1rem;
+    width: 100px;
+    border: 1.5px solid var(--muted-pink);
+}
+
+.contact-main-container {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.contact-container {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.contact-icon {
+    height: 30px;
+}
+
+.footer {
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+    color: rgba(0, 0, 0, 0.551);
 }
 
 /* ICONS BY Icons8 */

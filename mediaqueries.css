@@ -1,3 +1,13 @@
+@media screen and (max-width: 1400px) {
+    .project-article-container {
+        flex-wrap: wrap;
+    }
+
+    #projects {
+        height: fit-content;
+    }
+}
+
 @media screen and (max-width: 850px) {
     #desktop-nav {
         display: none;
@@ -5,5 +15,38 @@
 
     #hamburger-nav {
         display: flex;
+    }
+
+    .about-section-container {
+        display: block;
+    }
+
+    section, .about-section-container {
+        height: fit-content;
+    }
+    
+    section {
+        margin: 0 5%;
+    }
+
+    #contact {
+        padding: 2rem 0;
+    }
+
+    .contact-main-container {
+        gap: 2rem;
+    }
+
+    .skills-container, .details-container {
+        margin-top: 2rem;
+    }
+
+    .project-article-container, .skills-container {
+        margin-bottom: 2rem;
+    }
+
+    .contact-main-container {
+        flex-direction: column;
+        align-items: center;
     }
 }
