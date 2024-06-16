@@ -26,6 +26,7 @@ html {
     border-radius: 10px;
     border: solid 2px var(--light);
     cursor: pointer;
+    color: black;
 }
 
 .btn:hover {
