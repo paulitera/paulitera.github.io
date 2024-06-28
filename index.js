@@ -16,7 +16,7 @@
         //listener for resume
         let cv = document.getElementById("resume");
         cv.addEventListener("click", () => {
-            window.open("/assets/PaulinaTeránCV.pdf");
+            window.open("/assets/PaulinaTeranCV.pdf");
         });
 
         //listener for github
