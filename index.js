@@ -36,7 +36,7 @@
             window.open("https://github.com/hcp-uw/shroomies");
         })
         document.getElementById("fungifind-demo").addEventListener("click", () => {
-            window.open("https://docs.google.com/presentation/d/1gM8NnBSF3XxxImybPwQ9qBZoeITvUxLZHzdzUpY_gdM/edit#slide=id.g2ddb8ec4c7d_0_5");
+            window.open("https://drive.google.com/file/d/1b1BEqC1_AVgf_1CJTMI9pngoB5lG5Sni/view?usp=sharing");
         })
         document.getElementById("uofw-demo").addEventListener("click", () => {
             window.open("https://drive.google.com/file/d/1F35tO966i4erb4eAeiuHxCcW9C4LHr-q/view?usp=sharing");
